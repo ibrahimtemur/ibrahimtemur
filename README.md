@@ -20,6 +20,10 @@
 
 <!-- SOCIAL & PROFILE BADGES -->
 <p align="center">
+  <b>🇬🇧 English</b> • <a href="./README.tr.md">🇹🇷 Türkçe</a>
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/ibrahim-temur" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%C4%B0brahim_Temur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>

@@ -38,7 +38,6 @@
   <a href="https://info-session-psi.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Live_Demo-Info_Session-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Info Session Live" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=ibrahimtemur&label=Profile%20Views&color=3b82f6&style=for-the-badge" alt="Profile Views" />
 </p>
 
 </div>
@@ -177,31 +176,24 @@ I am a **Software Developer** focused on bridging the gap between **native deskt
 
 <div align="center">
 
-<!-- GITHUB STATS & STREAK (THEME AWARE) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ibrahimtemur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=60a5fa&text_color=c9d1d9&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ibrahimtemur&show_icons=true&theme=default&hide_border=true&title_color=2563eb&icon_color=3b82f6&text_color=334155&count_private=true" />
-  <img height="165" alt="İbrahim Temur's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ibrahimtemur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=60a5fa&text_color=c9d1d9&count_private=true" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ibrahimtemur&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=60A5FA&currStreakLabel=3B82F6" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ibrahimtemur&theme=default&hide_border=true&ring=2563EB&fire=3B82F6&currStreakLabel=2563EB" />
-  <img height="165" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=ibrahimtemur&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=60A5FA&currStreakLabel=3B82F6" />
-</picture>
-
-<br/>
-
-<!-- TOP LANGUAGES & SUMMARY CARDS -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimtemur&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9&langs_count=8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimtemur&layout=compact&theme=default&hide_border=true&title_color=2563eb&text_color=334155&langs_count=8" />
-  <img height="165" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimtemur&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9&langs_count=8" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimtemur&theme=tokyonight" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimtemur&theme=default" />
-  <img height="165" alt="Contribution Graph" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimtemur&theme=tokyonight" />
-</picture>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ibrahimtemur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=60a5fa&text_color=c9d1d9&count_private=true" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ibrahimtemur&show_icons=true&theme=default&hide_border=true&title_color=2563eb&icon_color=3b82f6&text_color=334155&count_private=true" />
+        <img width="100%" alt="İbrahim Temur's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ibrahimtemur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=60a5fa&text_color=c9d1d9&count_private=true" />
+      </picture>
+    </td>
+    <td width="50%" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ibrahimtemur&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=60A5FA&currStreakLabel=3B82F6" />
+        <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ibrahimtemur&theme=default&hide_border=true&ring=2563EB&fire=3B82F6&currStreakLabel=2563EB" />
+        <img width="100%" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=ibrahimtemur&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=60A5FA&currStreakLabel=3B82F6" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
 </div>
 

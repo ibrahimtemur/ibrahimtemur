@@ -16,6 +16,21 @@
   <a href="./README.md"><img src="./assets/flag-gb.svg" width="18" height="12" alt="EN" /> English</a> &nbsp;•&nbsp; <img src="./assets/flag-tr.svg" width="18" height="12" alt="TR" /> <b>Türkçe</b>
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/ibrahim-temur" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%C4%B0brahim_Temur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:ibrahimtemur847@gmail.com">
+    <img src="https://img.shields.io/badge/Email-%C4%B0leti%C5%9Fim-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/ibrahimtemur?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/Projeler-T%C3%BCm_Depolar-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories" />
+  </a>
+  <a href="https://info-session-psi.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Canl%C4%B1_Demo-Info_Session-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Info Session Live" />
+  </a>
+</p>
+
 </div>
 
 ---

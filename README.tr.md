@@ -5,13 +5,15 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e293b,100:3b82f6&height=220&section=header&text=%C4%B0brahim%20Temur&fontSize=54&fontColor=f8fafc&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20ve%20%C3%87apraz%20Platform%20Yaz%C4%B1l%C4%B1m%20Geli%C5%9Ftirici&descAlignY=65&descSize=20&descColor=94a3b8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=venom&color=0:1e3a8a,50:2563eb,100:60a5fa&height=220&section=header&text=%C4%B0brahim%20Temur&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20ve%20%C3%87apraz%20Platform%20Yaz%C4%B1l%C4%B1m%20Geli%C5%9Ftirici&descAlignY=65&descSize=20&descColor=e2e8f0" />
-  <img width="100%" alt="İbrahim Temur Header" src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e293b,100:3b82f6&height=220&section=header&text=%C4%B0brahim%20Temur&fontSize=54&fontColor=f8fafc&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20ve%20%C3%87apraz%20Platform%20Yaz%C4%B1l%C4%B1m%20Geli%C5%9Ftirici&descAlignY=65&descSize=20&descColor=94a3b8" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img width="100%" alt="İbrahim Temur Header" src="./assets/header-dark.svg" />
 </picture>
 
+<br/>
+
 <p align="center">
-  <a href="./README.md">🇬🇧 English</a> • <b>🇹🇷 Türkçe</b>
+  <a href="./README.md"><img src="./assets/flag-gb.svg" width="18" height="12" alt="EN" /> English</a> &nbsp;•&nbsp; <img src="./assets/flag-tr.svg" width="18" height="12" alt="TR" /> <b>Türkçe</b>
 </p>
 
 </div>

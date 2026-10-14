@@ -6,10 +6,12 @@
 
 <!-- DYNAMIC HEADER BANNER -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e293b,100:3b82f6&height=220&section=header&text=%C4%B0brahim%20Temur&fontSize=54&fontColor=f8fafc&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20%26%20Cross-Platform%20Software%20Developer&descAlignY=65&descSize=20&descColor=94a3b8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=venom&color=0:1e3a8a,50:2563eb,100:60a5fa&height=220&section=header&text=%C4%B0brahim%20Temur&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20%26%20Cross-Platform%20Software%20Developer&descAlignY=65&descSize=20&descColor=e2e8f0" />
-  <img width="100%" alt="İbrahim Temur Header" src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e293b,100:3b82f6&height=220&section=header&text=%C4%B0brahim%20Temur&fontSize=54&fontColor=f8fafc&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20%26%20Cross-Platform%20Software%20Developer&descAlignY=65&descSize=20&descColor=94a3b8" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img width="100%" alt="İbrahim Temur Header" src="./assets/header-dark.svg" />
 </picture>
+
+<br/>
 
 <!-- ANIMATED TYPING SUBTITLE -->
 <a href="https://github.com/ibrahimtemur">
@@ -20,7 +22,7 @@
 
 <!-- SOCIAL & PROFILE BADGES -->
 <p align="center">
-  <b>🇬🇧 English</b> • <a href="./README.tr.md">🇹🇷 Türkçe</a>
+  <img src="./assets/flag-gb.svg" width="18" height="12" alt="EN" /> <b>English</b> &nbsp;•&nbsp; <a href="./README.tr.md"><img src="./assets/flag-tr.svg" width="18" height="12" alt="TR" /> Türkçe</a>
 </p>
 
 <p align="center">
@@ -215,11 +217,3 @@ I am a **Software Developer** focused on bridging the gap between **native deskt
   </picture>
 </div>
 
-<!-- FOOTER WAVE -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:3b82f6&height=110&section=footer" />
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=110&section=footer" />
-    <img width="100%" alt="Footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:3b82f6&height=110&section=footer" />
-  </picture>
-</div>

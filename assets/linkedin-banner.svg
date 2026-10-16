@@ -1,25 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="100%" height="100%" style="overflow:hidden;display:block;margin:0;padding:0;background:#060B19">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="100%" height="100%" style="overflow:hidden;display:block;margin:0;padding:0;background:#09090b">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060B19"/>
-      <stop offset="50%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#1E1B4B"/>
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="55%" stop-color="#111113"/>
+      <stop offset="100%" stop-color="#18181b"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#C084FC"/>
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="50%" stop-color="#fafafa"/>
+      <stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
     <radialGradient id="glow1" cx="75%" cy="20%" r="45%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2" cx="30%" cy="85%" r="40%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.3"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.035"/>
     </pattern>
   </defs>
 
@@ -27,81 +27,67 @@
   <rect width="1584" height="396" fill="url(#grid)"/>
   <rect width="1584" height="396" fill="url(#glow1)"/>
   <rect width="1584" height="396" fill="url(#glow2)"/>
-  <rect x="0" y="0" width="1584" height="4" fill="url(#accent)"/>
+  <rect x="0" y="0" width="1584" height="3" fill="url(#accent)"/>
 
-  <g opacity="0.28" stroke="#38BDF8" stroke-width="1.2" fill="none">
-    <circle cx="95" cy="82" r="4" fill="#38BDF8"/>
-    <circle cx="175" cy="58" r="3" fill="#818CF8"/>
-    <circle cx="245" cy="108" r="4.5" fill="#C084FC"/>
-    <circle cx="140" cy="138" r="3" fill="#38BDF8"/>
-    <line x1="95" y1="82" x2="175" y2="58"/>
-    <line x1="175" y1="58" x2="245" y2="108"/>
-    <line x1="95" y1="82" x2="140" y2="138"/>
-    <line x1="140" y1="138" x2="245" y2="108"/>
-  </g>
+  <g transform="translate(340, 58)" font-family="'Segoe UI', Inter, system-ui, sans-serif">
+    <rect x="0" y="0" width="420" height="30" rx="15" fill="#141417" stroke="#27272a" stroke-width="1"/>
+    <circle cx="18" cy="15" r="4.5" fill="#10b981"/>
+    <text x="32" y="20" font-size="12" font-weight="600" fill="#e4e4e7" letter-spacing="0.6">ADÜ COMPUTER ENGINEERING · GDG CORE TEAM</text>
 
-  <g transform="translate(340, 62)" font-family="'Segoe UI', Inter, system-ui, sans-serif">
-    <rect x="0" y="0" width="290" height="30" rx="15" fill="#1E293B" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.45"/>
-    <circle cx="18" cy="15" r="4.5" fill="#22C55E"/>
-    <text x="32" y="20" font-size="12.5" font-weight="600" fill="#E2E8F0" letter-spacing="0.8">MULTI-PLATFORM DEVELOPER</text>
+    <text x="0" y="82" font-size="46" font-weight="800" fill="#fafafa" letter-spacing="-0.8">İbrahim Temur</text>
 
-    <text x="0" y="82" font-size="46" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">İbrahim Temur</text>
-    <rect x="338" y="50" width="10" height="36" rx="2" fill="url(#accent)"/>
-
-    <text x="0" y="122" font-size="20" font-weight="500" fill="#94A3B8">
-      Desktop <tspan fill="#38BDF8">•</tspan> Mobile <tspan fill="#818CF8">•</tspan> Full-Stack Web Applications
+    <text x="0" y="122" font-size="19.5" font-weight="500" fill="#a1a1aa">
+      Cross-Platform Mobile &amp; Desktop <tspan fill="#10b981">•</tspan> Full-Stack Web <tspan fill="#10b981">•</tspan> Embedded IoT
     </text>
 
-    <g transform="translate(0, 152)" font-size="13.5" font-weight="600">
-      <rect x="0" y="0" width="126" height="34" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text x="63" y="22" fill="#38BDF8" text-anchor="middle">Python &amp; PyQt6</text>
+    <g transform="translate(0, 152)" font-size="13" font-weight="600">
+      <rect x="0" y="0" width="120" height="34" rx="8" fill="#141417" stroke="#27272a" stroke-width="1.2"/>
+      <text x="60" y="22" fill="#fafafa" text-anchor="middle">Flutter &amp; Dart</text>
 
-      <rect x="138" y="0" width="92" height="34" rx="8" fill="#0F172A" stroke="#F97316" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text x="184" y="22" fill="#FB923C" text-anchor="middle">SwiftUI</text>
+      <rect x="130" y="0" width="150" height="34" rx="8" fill="#141417" stroke="#27272a" stroke-width="1.2"/>
+      <text x="205" y="22" fill="#fafafa" text-anchor="middle">SwiftUI &amp; Compose</text>
 
-      <rect x="242" y="0" width="92" height="34" rx="8" fill="#0F172A" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text x="288" y="22" fill="#C084FC" text-anchor="middle">Kotlin</text>
+      <rect x="290" y="0" width="124" height="34" rx="8" fill="#141417" stroke="#27272a" stroke-width="1.2"/>
+      <text x="352" y="22" fill="#fafafa" text-anchor="middle">Python &amp; PyQt6</text>
 
-      <rect x="346" y="0" width="92" height="34" rx="8" fill="#0F172A" stroke="#06B6D4" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text x="392" y="22" fill="#22D3EE" text-anchor="middle">Flutter</text>
+      <rect x="424" y="0" width="156" height="34" rx="8" fill="#141417" stroke="#27272a" stroke-width="1.2"/>
+      <text x="502" y="22" fill="#fafafa" text-anchor="middle">React 19 &amp; .NET MVC</text>
 
-      <rect x="450" y="0" width="102" height="34" rx="8" fill="#0F172A" stroke="#60A5FA" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text x="501" y="22" fill="#93C5FD" text-anchor="middle">React 19</text>
-
-      <rect x="564" y="0" width="184" height="34" rx="8" fill="#0F172A" stroke="#34D399" stroke-width="1.2" stroke-opacity="0.6"/>
-      <text x="656" y="22" fill="#6EE7B7" text-anchor="middle">Node.js &amp; PostgreSQL</text>
+      <rect x="590" y="0" width="136" height="34" rx="8" fill="#141417" stroke="#27272a" stroke-width="1.2"/>
+      <text x="658" y="22" fill="#10b981" text-anchor="middle">ESP32 / IoT</text>
     </g>
 
-    <g transform="translate(0, 224)" font-family="'Consolas', 'Courier New', monospace" font-size="14" fill="#CBD5E1">
+    <g transform="translate(0, 224)" font-family="'Consolas', 'Courier New', monospace" font-size="13.5" fill="#d4d4d8">
       <text x="0" y="20">
-        <tspan fill="#38BDF8" font-weight="700">github.com/</tspan>ibrahimtemur
-        <tspan dx="24" fill="#475569">|</tspan>
-        <tspan dx="24" fill="#818CF8" font-weight="700">linkedin.com/in/</tspan>ibrahim-temur
+        <tspan fill="#10b981" font-weight="700">ibrahimtemur.github.io</tspan>
+        <tspan dx="18" fill="#52525b">|</tspan>
+        <tspan dx="18" fill="#fafafa" font-weight="700">github.com/</tspan>ibrahimtemur
+        <tspan dx="18" fill="#52525b">|</tspan>
+        <tspan dx="18" fill="#a1a1aa">App Store &amp; Google Play</tspan>
       </text>
     </g>
   </g>
 
-  <g transform="translate(1135, 46)">
-    <rect x="0" y="0" width="395" height="304" rx="14" fill="#090D16" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
-    <rect x="0" y="0" width="395" height="36" rx="14" fill="#1E293B"/>
-    <rect x="0" y="22" width="395" height="14" fill="#1E293B"/>
-    <circle cx="20" cy="18" r="5.5" fill="#EF4444"/>
-    <circle cx="38" cy="18" r="5.5" fill="#F59E0B"/>
-    <circle cx="56" cy="18" r="5.5" fill="#10B981"/>
-    <text x="197" y="22" font-family="'Consolas', monospace" font-size="12" fill="#94A3B8" text-anchor="middle">ibrahim@dev: ~/projects</text>
+  <g transform="translate(1115, 42)">
+    <rect x="0" y="0" width="420" height="312" rx="14" fill="#0c0c0e" stroke="#27272a" stroke-width="1.5"/>
+    <rect x="0" y="0" width="420" height="36" rx="14" fill="#141417"/>
+    <rect x="0" y="22" width="420" height="14" fill="#141417"/>
+    <circle cx="20" cy="18" r="5.5" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="5.5" fill="#f59e0b"/>
+    <circle cx="56" cy="18" r="5.5" fill="#10b981"/>
+    <text x="210" y="22" font-family="'Consolas', monospace" font-size="12" fill="#a1a1aa" text-anchor="middle">ibrahim_temur.profile.ts</text>
 
-    <g transform="translate(22, 62)" font-family="'Consolas', 'Courier New', monospace" font-size="13.5">
-      <text x="0" y="0" fill="#38BDF8">$ <tspan fill="#F8FAFC">cat developer.json</tspan></text>
-      <text x="0" y="26" fill="#94A3B8">{</text>
-      <text x="16" y="50" fill="#CBD5E1"><tspan fill="#7DD3FC">"focus"</tspan>: <tspan fill="#86EFAC">"Cross-Platform Systems"</tspan>,</text>
-      <text x="16" y="74" fill="#CBD5E1"><tspan fill="#7DD3FC">"desktop"</tspan>: [<tspan fill="#FDE047">"Python"</tspan>, <tspan fill="#FDE047">"PyQt6"</tspan>],</text>
-      <text x="16" y="98" fill="#CBD5E1"><tspan fill="#7DD3FC">"mobile"</tspan>: [<tspan fill="#FDE047">"SwiftUI"</tspan>, <tspan fill="#FDE047">"Kotlin"</tspan>, <tspan fill="#FDE047">"Flutter"</tspan>],</text>
-      <text x="16" y="122" fill="#CBD5E1"><tspan fill="#7DD3FC">"web"</tspan>: [<tspan fill="#FDE047">"React 19"</tspan>, <tspan fill="#FDE047">"Express 5"</tspan>],</text>
-      <text x="16" y="146" fill="#CBD5E1"><tspan fill="#7DD3FC">"featured"</tspan>: [</text>
-      <text x="32" y="170" fill="#C084FC">"Mac Remote (BLE + WebSocket)"<tspan fill="#CBD5E1">,</tspan></text>
-      <text x="32" y="192" fill="#C084FC">"Info Session Platform"</text>
-      <text x="16" y="212" fill="#CBD5E1">]</text>
-      <text x="0" y="232" fill="#94A3B8">}</text>
+    <g transform="translate(22, 62)" font-family="'Consolas', 'Courier New', monospace" font-size="13">
+      <text x="0" y="0" fill="#71717a">const <tspan fill="#fafafa">developer</tspan> = {</text>
+      <text x="16" y="26" fill="#fafafa">role: <tspan fill="#a1a1aa">"Software &amp; Systems Eng"</tspan>,</text>
+      <text x="16" y="52" fill="#fafafa">edu: <tspan fill="#a1a1aa">"ADÜ Computer Engineering"</tspan>,</text>
+      <text x="16" y="78" fill="#fafafa">gdg: <tspan fill="#a1a1aa">"Software Core Team"</tspan>,</text>
+      <text x="16" y="104" fill="#fafafa">stores: [</text>
+      <text x="32" y="128" fill="#10b981">"Apple App Store (Desktop Remote)"<tspan fill="#a1a1aa">,</tspan></text>
+      <text x="32" y="152" fill="#10b981">"Google Play (Mac Remote)"</text>
+      <text x="16" y="176" fill="#fafafa">],</text>
+      <text x="16" y="202" fill="#fafafa">web: <tspan fill="#a1a1aa">"ibrahimtemur.github.io"</tspan></text>
+      <text x="0" y="228" fill="#71717a">};</text>
     </g>
   </g>
 </svg>

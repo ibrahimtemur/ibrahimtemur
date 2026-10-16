@@ -1,7 +1,10 @@
 # LinkedIn Profil Optimizasyon Rehberi (TR & EN)
 
+> **Portfolyo Web Sitesi:** [https://ibrahimtemur.github.io](https://ibrahimtemur.github.io)  
 > **LinkedIn Profili:** [https://www.linkedin.com/in/ibrahim-temur](https://www.linkedin.com/in/ibrahim-temur)  
 > **GitHub Profili:** [https://github.com/ibrahimtemur](https://github.com/ibrahimtemur)  
+> **Apple App Store Geliştirici Profili:** [https://apps.apple.com/us/developer/ibrahim-temur/id6812348432](https://apps.apple.com/us/developer/ibrahim-temur/id6812348432)  
+> **Google Play Store Geliştirici Profili:** [https://play.google.com/store/apps/developer?id=%C4%B0brahim+Temur](https://play.google.com/store/apps/developer?id=%C4%B0brahim+Temur)  
 > **Özel Kapak Görseli:** `assets/linkedin-banner.png` (`1584 × 396 px`)
 
 ---
@@ -74,9 +77,11 @@ Explore my open-source work at github.com/ibrahimtemur or reach out at ibrahimte
 ## 📌 3. Öne Çıkanlar (Featured) & Projeler (Projects)
 
 ### Öne Çıkanlar (Featured Links)
-1. **GitHub Portfolio:** `https://github.com/ibrahimtemur` — *İbrahim Temur — Open-Source Projects & Engineering Portfolio*
-2. **Info Session (Canlı Uygulama):** `https://info-session-psi.vercel.app/` — *Info Session — Smart Table Matching Platform (Live App)*
-3. **Mac Remote (GitHub):** `https://github.com/ibrahimtemur/mac-remote-app` — *Mac Remote — Cross-Platform macOS Trackpad & Screen Streamer*
+1. **Kişisel Portfolyo Web Sitesi:** `https://ibrahimtemur.github.io` — *İbrahim Temur — Software & Systems Engineering Portfolio*
+2. **Apple App Store Geliştirici Profili:** `https://apps.apple.com/us/developer/ibrahim-temur/id6812348432` — *İbrahim Temur on the Apple App Store*
+3. **Google Play Store Geliştirici Profili:** `https://play.google.com/store/apps/developer?id=%C4%B0brahim+Temur` — *İbrahim Temur on Google Play*
+4. **Info Session (Canlı Uygulama):** `https://info-session-psi.vercel.app/` — *Info Session — Smart Table Matching Platform (Live App)*
+5. **Mac Remote (GitHub):** `https://github.com/ibrahimtemur/mac-remote-app` — *Mac Remote — Cross-Platform macOS Trackpad & Screen Streamer*
 
 ### Sabitlenecek En İyi Yetenekler (Top Skills)
 1. ⭐ **Full-Stack Development (React & Node.js)**

@@ -1,56 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="100%" height="210">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16"/>
-      <stop offset="50%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e1b4b"/>
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="55%" stop-color="#111113"/>
+      <stop offset="100%" stop-color="#18181b"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#818cf8"/>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    <linearGradient id="topLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#18181b" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fafafa" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#18181b" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="0%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6"/>
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.035"/>
     </pattern>
   </defs>
 
   <!-- Main Card Background -->
-  <rect width="900" height="200" rx="16" fill="url(#bg)" stroke="#1e293b" stroke-width="1.5"/>
-  <rect width="900" height="200" rx="16" fill="url(#grid)"/>
+  <rect width="900" height="210" rx="16" fill="url(#bg)" stroke="#27272a" stroke-width="1.5"/>
+  <rect width="900" height="210" rx="16" fill="url(#grid)"/>
+  <rect width="900" height="210" rx="16" fill="url(#glow)"/>
 
-  <!-- Decorative Ambient Glows -->
-  <circle cx="140" cy="40" r="140" fill="url(#glow)"/>
-  <circle cx="760" cy="160" r="160" fill="url(#glow)"/>
+  <!-- Top Architectural Highlight -->
+  <rect x="200" y="0" width="500" height="2" fill="url(#topLine)"/>
 
-  <!-- Top Accent Line -->
-  <rect x="300" y="0" width="300" height="3" rx="1.5" fill="url(#accent)"/>
-
-  <!-- Terminal / Code Tag Accents -->
-  <text x="45" y="45" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#475569">&lt;developer profile="ibrahimtemur"&gt;</text>
-  <text x="45" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#475569">&lt;/developer&gt;</text>
+  <!-- Terminal Metadata Accents -->
+  <text x="40" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" fill="#71717a">~/ibrahimtemur.github.io $</text>
+  <text x="40" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#52525b">SYS_ENG · ADÜ Computer Engineering · GDG on Campus Core Team</text>
 
   <!-- Status Pill -->
-  <rect x="715" y="24" width="145" height="26" rx="13" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-  <circle cx="731" cy="37" r="4.5" fill="#22c55e"/>
-  <text x="744" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#cbd5e1">Open to Connect</text>
+  <rect x="658" y="22" width="204" height="28" rx="14" fill="#141417" stroke="#27272a" stroke-width="1"/>
+  <circle cx="676" cy="36" r="4.5" fill="#10b981"/>
+  <text x="690" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#e4e4e7">App Store &amp; Play Store Live</text>
 
   <!-- Name -->
-  <text x="450" y="98" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#f8fafc" letter-spacing="0.5">
+  <text x="450" y="96" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#nameGrad)" letter-spacing="-0.8">
     İbrahim Temur
   </text>
 
-  <!-- Subtitle with Gradient -->
-  <text x="450" y="136" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18.5" font-weight="600" fill="url(#accent)" letter-spacing="0.4">
-    Full-Stack &amp; Cross-Platform Software Developer
+  <!-- Subtitle -->
+  <text x="450" y="132" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17.5" font-weight="600" fill="#d4d4d8" letter-spacing="0.2">
+    Software Developer &amp; Computer Engineering Student (ADÜ)
   </text>
 
-  <!-- Tech Stack Mini Subline -->
-  <text x="450" y="164" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" fill="#94a3b8" letter-spacing="1.2">
-    macOS • iOS • Android • React • Node.js • PostgreSQL
+  <!-- Tech Stack Subline -->
+  <text x="450" y="160" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#a1a1aa" letter-spacing="0.9">
+    Flutter • SwiftUI • Jetpack Compose • PyQt6 • React 19 • ASP.NET Core MVC • ESP32 IoT
   </text>
 </svg>
